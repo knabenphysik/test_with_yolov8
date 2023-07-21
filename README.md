@@ -25,6 +25,6 @@ pip install ultralytics py-cpuinfo opencv-python pillow matplotlib
 
 
 ## FAQ
-* **I get the error `torch.cuda.OutOfMemoryError: CUDA out of memory..`, when i train with gpu on Windows 11. How do I fix this?**
+* **I get the error `torch.cuda.OutOfMemoryError: CUDA out of memory..`, when i train with gpu on Windows 11. How do I fix this?** Reduce _batch size_ $\leq$ *_8_*
 * **I get the error `NOTE: Redirects are currently not supported in Windows or MacOs.`, when i train multi-gpu on Windows 11. How do I fix this?**
 
